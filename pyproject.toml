@@ -1,0 +1,15 @@
+[project]
+name = "sus-ai"
+version = "0.1.0"
+description = "LLM Among Us — A Python simulation of Among Us where every player is a different LLM model."
+requires-python = ">=3.11"
+dependencies = [
+    "pygame>=2.6",
+    "httpx>=0.28",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+]
